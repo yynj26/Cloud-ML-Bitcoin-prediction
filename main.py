@@ -15,7 +15,7 @@ if int(os.environ.get("PRODUCTION", 0)) == 1:
     logging_client = google.cloud.logging.Client()
     logging_client.setup_logging()
 
-@app.route('/set_base_model')
+@app.route('/')
 def index():
     return render_template('form_data.html')
 
