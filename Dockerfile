@@ -1,7 +1,7 @@
 
 FROM python:3.9-slim
 
-EXPOSE 80
+EXPOSE 8080
 
 # Allow statements and log messages to immediately appear in the Knative logs
 ENV PYTHONUNBUFFERED True
