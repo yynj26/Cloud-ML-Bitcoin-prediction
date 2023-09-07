@@ -5,15 +5,6 @@ This is the Final Project for MSDS434 Analytics System. In this project, I const
                        
 The cloud-native architecture ensures the pipeline is both scalable and flexible to changes, accommodating increases in user traffic or computational needs without requiring manual intervention. This implementation serves as a foundation for more complex ML projects, where computational demand and data volume escalate rapidly.
 
-### Contents
-- Readme
-- Requirements
-- Dockerfile
-- app.yaml
-- Cloudbuild.yaml
-- Templates
-- main.py
-
 ### Built With
 - Flask
 - Git
